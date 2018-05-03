@@ -1,12 +1,5 @@
+
 package testapp;
-public class TestApp {
-
-public static void main(String[] args) {
-
-System.out.println("GIT test application");
-System.out.println(getSum());
-System.out.println(getDel());
-}
 
 public class SimpleCalc {
 
@@ -19,15 +12,13 @@ this.a=p1;
 this.b=p2;
 }
 
-public double getDelen() {
-return this.a/this.b;
+public double getMult() {
+return this.a+this.b;
 }
-public double getDel() {
+public double getDiv() {
 return this.a-this.b;
 }
-
-
+public double getDel() {
+return this.a/this.b;
 }
-
 }
-
