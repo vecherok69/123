@@ -19,8 +19,8 @@ this.a=p1;
 this.b=p2;
 }
 
-public double getSum() {
-return this.a+this.b;
+public double getDelen() {
+return this.a/this.b;
 }
 public double getDel() {
 return this.a-this.b;
