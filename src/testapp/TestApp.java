@@ -4,7 +4,8 @@ public class TestApp {
 public static void main(String[] args) {
 
 System.out.println("GIT test application");
-System.out.println("KY");
+System.out.println(getSum());
+System.out.println(getDel());
 }
 
 public class SimpleCalc {
@@ -23,7 +24,10 @@ return this.a+this.b;
 }
 public double getDel() {
 return this.a-this.b;
-         }
-     }
+}
+
+
+}
+
 }
 
