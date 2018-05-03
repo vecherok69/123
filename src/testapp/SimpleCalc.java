@@ -10,9 +10,7 @@ this.a=p1;
 this.b=p2;
 }
 
-public double getMult() {
-return this.a+this.b;
-}
+
 public double getDiv() {
 return this.a-this.b;
 }
