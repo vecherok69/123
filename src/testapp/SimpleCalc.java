@@ -17,9 +17,8 @@ public double getDiv() {
 return this.a-this.b;
 }
 public double getDel() {
+ System.out.println("KY");
 return this.a/this.b;
 }
-public double getMnoj() {
-return this.a*this.b;
-}
+
 }
