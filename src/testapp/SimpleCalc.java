@@ -19,4 +19,7 @@ return this.a-this.b;
 public double getDel() {
 return this.a/this.b;
 }
+public double getMnoj() {
+return this.a*this.b;
+}
 }
